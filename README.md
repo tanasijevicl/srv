@@ -2,8 +2,6 @@
 
 ## Arhitektura softvera
 
-<div style="text-align: justify">
-
 **Arhitektura softvera** predstavlja sponu između poslovnih i tehničkih zahteva u skladu sa planiranom namenom sistema, i različitim scenarijima upotrebe sistema. **Cilj** arhitekture softvera je identifikacija zahteva koji utiču na strukturni izgled aplikacije i predstava te struktura sistema, ali tako da se sakriju detalji implementacije. **Parametri kvaliteta** su ukupni faktori koji utiču na *run-time* ponašanje sistema, utiču na dizajn sistema i korisničko iskustvo u upotrebi sistema.
 
 - **Arhitekturalni stil** predstavlja odraz/prikaz sistema/aplikacije na najvišem nivou apstrakcije. 
@@ -667,5 +665,3 @@ Postoje dve vrste krajnjih nodova. **Krajnji nod aktivnosti** podrazumeva krajnj
 Uz pomoć ***weight*** definiše se vrednost za koju se prelaz realizuje.
 
 U slučaju kada treba odlučiti o daljem toku kontrole, koristi se **nod odlučivanja/račvanja **(*decision node*) koji ima jednu dolaznu putanju i jednu ili više odlaznih putanja/strelica. Odlučivanje o odlaznoj putanji zavisi od evaluacije uslova (*guards*) specificiranih u uglastim zagradama.
-
-</div>
